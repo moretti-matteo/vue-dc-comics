@@ -9,16 +9,9 @@
       <div class="header__right">
         <nav>
           <ul>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
+            <li v-for="(link, i) in links" :key="i">
+              <a :href="link.url">{{ link.text }}</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -29,14 +22,59 @@
 
 <script>
 export default {
-  name: 'BaseHeader'
+  name: 'BaseHeader',
+  data() {
+    return {
+      links: [
+        {
+          text: 'CHARACTERS',
+          url:'#'
+        },
+        {
+          text: 'COMICS',
+          url:'#'
+        },
+        {
+          text: 'MOVIES',
+          url:'#'
+        },
+        {
+          text: 'TV',
+          url:'#'
+        },
+        {
+          text: 'GAMES',
+          url:'#'
+        },
+        {
+          text: 'COOLECTIBLES',
+          url:'#'
+        },
+        {
+          text: 'VIDEOS',
+          url:'#'
+        },
+        {
+          text: 'FANS',
+          url:'#'
+        },
+        {
+          text: 'NEWS',
+          url:'#'
+        },
+        {
+          text: 'SHOP',
+          url:'#'
+        },
+
+
+      ]
+    }
+  }
 }
 </script>
 
 <style lang="scss">
-
-
-
 .header {
 
   & .container {
@@ -45,29 +83,27 @@ export default {
     justify-content: space-between;
   }
 
-  &__left{
-    img{
+  &__left {
+    img {
       width: 80%;
     }
   }
 
   &__right {
-  ul {
-    display: flex;
-    list-style-type: none;
+    ul {
+      display: flex;
+      list-style-type: none;
 
-    li a {
-      padding:10px;
-      color:black;
+      li a {
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+      }
     }
   }
-}
 
 
 
 }
-
-
-
-
 </style>

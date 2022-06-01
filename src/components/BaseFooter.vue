@@ -155,7 +155,7 @@ export default {
         background-image: url("../assets/img/footer-bg.jpg");
         background-size: cover;
         background-position: center;
-        // max-height: 320px;
+        // max-height: 320px;   
 
         ul {
             list-style-type: none;
@@ -179,11 +179,18 @@ export default {
             .nav {
                 display: flex;
                 column-gap: 30px;
+
+            }
+
+            div:last-child{
+                overflow: hidden;
+                width: 40%;
+                text-align: center;
             }
 
             div:last-child img {
                 width: 320px;
-
+                transform: scale(1.5);
             }
 
 
