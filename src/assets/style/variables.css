@@ -1,3 +1,5 @@
 :root{
-    --bg-black:black;
+    --bg-black:#000;
+    --text-white:#fff;
+    
 }

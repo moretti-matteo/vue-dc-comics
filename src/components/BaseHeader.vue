@@ -34,12 +34,10 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/style/global.css";
 
 
 
 .header {
-  border: 1px solid;
 
   & .container {
     display: flex;
@@ -61,7 +59,6 @@ export default {
     li a {
       padding:10px;
       color:black;
-      border:1px solid magenta;
     }
   }
 }
