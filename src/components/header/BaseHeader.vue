@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="header__left">
-        <img src="../assets/img/dc-logo.png" alt="">
+        <img src="../../assets/img/dc-logo.png" alt="">
       </div>
 
       <div class="header__right">

@@ -6,26 +6,26 @@
                 <nav>
                     <ul>
                         <li>
-                            <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                            <img src="../../assets/img/buy-comics-digital-comics.png" alt="">
                             <a href="#">DIGITAL COMICS</a>
                         </li>
                         <li>
-                            <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                            <img src="../../assets/img/buy-comics-merchandise.png" alt="">
 
                             <a href="#">DC MERCHANDISE</a>
                         </li>
                         <li>
-                            <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                            <img src="../../assets/img/buy-comics-subscriptions.png" alt="">
 
                             <a href="#">SUBSCRIPTION</a>
                         </li>
                         <li>
-                            <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                            <img src="../../assets/img/buy-comics-shop-locator.png" alt="">
 
                             <a href="#">COMIC SHOP LOCATOR</a>
                         </li>
                         <li>
-                            <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                            <img src="../../assets/img/buy-dc-power-visa.svg" alt="">
 
                             <a href="#">DC POWER VISA</a>
                         </li>
@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="">
-                    <img src="../assets/img/dc-logo-bg.png" alt="">
+                    <img src="../../assets/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
         </div>
@@ -104,11 +104,11 @@
                 </div>
                 <div class="footer__bottom__right">
                     <h4>FOLLOW US</h4>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../../assets/img/footer-facebook.png" alt="">
+                    <img src="../../assets/img/footer-periscope.png" alt="">
+                    <img src="../../assets/img/footer-pinterest.png" alt="">
+                    <img src="../../assets/img/footer-twitter.png" alt="">
+                    <img src="../../assets/img/footer-youtube.png" alt="">
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@ export default {
     }
 
     &__middle {
-        background-image: url("../assets/img/footer-bg.jpg");
+        background-image: url("../../assets/img/footer-bg.jpg");
         background-size: cover;
         background-position: center;
         // max-height: 320px;   

@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import BaseHeader from './components/BaseHeader.vue';
-import BaseMain from './components/BaseMain.vue';
-import BaseFooter from './components/BaseFooter.vue';
+import BaseHeader from './components/header/BaseHeader.vue';
+import BaseMain from './components/main/BaseMain.vue';
+import BaseFooter from './components/footer/BaseFooter.vue';
 
 export default {
   name: 'App',
@@ -22,6 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/style/variables.css";
 @import "./assets/style/global.css";
 </style>

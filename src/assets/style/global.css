@@ -1,14 +1,16 @@
-*{
+@import "./variables.css";
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     width: 1200px;
     margin: auto;
-  }
+}
